@@ -10,4 +10,9 @@ def greet(time, name):
         return f"¡Buenas tardes {name}!"
 
 def handle_word(word):
-    return None
+    text_to_print = ""
+    text_to_print = text_to_print + word[::-1]
+    if (word == word[::-1]):
+        text_to_print = text_to_print + "\n¡Bonita palabra!"
+
+    return text_to_print
