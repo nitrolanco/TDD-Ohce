@@ -9,6 +9,9 @@ def greet(time, name):
     elif 12 <= current_hour < 20:
         return f"¡Buenas tardes {name}!"
 
+def start_game(text):
+    return None
+
 def handle_word(word):
     text_to_print = ""
     text_to_print = text_to_print + word[::-1]
