@@ -8,3 +8,6 @@ def greet(time, name):
         return f"¡Buenos dias {name}!"
     elif 12 <= current_hour < 20:
         return f"¡Buenas tardes {name}!"
+
+def handle_word(word):
+    return None
