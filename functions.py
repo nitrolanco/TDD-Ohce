@@ -10,7 +10,14 @@ def greet(time, name):
         return f"¡Buenas tardes {name}!"
 
 def start_game(text):
-    return None
+    start = text
+    try:
+        ohce, name = start.split()
+    except ValueError as e:
+        return None
+    if ohce != "ohce":
+        return None
+    return name
 
 def handle_word(word):
     text_to_print = ""
