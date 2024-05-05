@@ -1,0 +1,26 @@
+PS C:\Users\MAMIB\OneDrive\Escritorio\Tarea 1 Testing final\TDD-Ohce> python test_4.py
+¡Buenas tardes Anibal!
+None
+E
+======================================================================
+ERROR: test_main_loop (__main__.TestStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_4.py", line 21, in test_main_loop
+    functions.main_loop(24, "Pedro", "chap", "chancho", "sitis", "stop!"), expected_output
+  File "C:\Users\MAMIB\OneDrive\Escritorio\Tarea 1 Testing final\TDD-Ohce\functions.py", line 35, in main_loop
+    log = log + f"\n{handle_word(word)}"
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+PS C:\Users\MAMIB\OneDrive\Escritorio\Tarea 1 Testing final\TDD-Ohce> python test_4.py
+¡Buenas tardes Anibal!
+¡Buenas noches Pedro!
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
