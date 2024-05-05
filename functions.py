@@ -20,3 +20,6 @@ def handle_word(word):
 
 def handle_stop(name):
     return f'Adios {name}'
+
+def main_loop(time, name, word_1, word_2, word_3, word_4):
+    return None
