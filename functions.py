@@ -16,3 +16,7 @@ def handle_word(word):
         text_to_print = text_to_print + "\n¡Bonita palabra!"
 
     return text_to_print
+
+
+def handle_stop(name):
+    return None
