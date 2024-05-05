@@ -19,4 +19,4 @@ def handle_word(word):
 
 
 def handle_stop(name):
-    return None
+    return f'Adios {name}'
